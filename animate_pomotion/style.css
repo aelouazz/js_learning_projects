@@ -1,0 +1,23 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #a533f1;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+  }
+span{
+	color: white;
+	font-weight: bolder;
+	pointer-events: none;
+	user-select: none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 400px;
+  }
